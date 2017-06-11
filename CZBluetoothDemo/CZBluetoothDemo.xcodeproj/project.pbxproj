@@ -13,6 +13,7 @@
 		B77328CA1E7ECC0900F4C97F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B77328C81E7ECC0900F4C97F /* Main.storyboard */; };
 		B77328CC1E7ECC0900F4C97F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B77328CB1E7ECC0900F4C97F /* Assets.xcassets */; };
 		B77328CF1E7ECC0900F4C97F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B77328CD1E7ECC0900F4C97F /* LaunchScreen.storyboard */; };
+		B7CBBF841EED94D0002A0D10 /* CZBluetooth.m in Sources */ = {isa = PBXBuildFile; fileRef = B7CBBF831EED94D0002A0D10 /* CZBluetooth.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		B77328CB1E7ECC0900F4C97F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B77328CE1E7ECC0900F4C97F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B77328D01E7ECC0900F4C97F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7CBBF821EED94D0002A0D10 /* CZBluetooth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZBluetooth.h; sourceTree = "<group>"; };
+		B7CBBF831EED94D0002A0D10 /* CZBluetooth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZBluetooth.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +46,7 @@
 			isa = PBXGroup;
 			children = (
 				B77328BE1E7ECC0900F4C97F /* CZBluetoothDemo */,
+				B7CBBF811EED94D0002A0D10 /* CZBluetooth */,
 				B77328BD1E7ECC0900F4C97F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -77,6 +81,15 @@
 				B77328C01E7ECC0900F4C97F /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B7CBBF811EED94D0002A0D10 /* CZBluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				B7CBBF821EED94D0002A0D10 /* CZBluetooth.h */,
+				B7CBBF831EED94D0002A0D10 /* CZBluetooth.m */,
+			);
+			path = CZBluetooth;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,6 +166,7 @@
 				B77328C71E7ECC0900F4C97F /* ViewController.m in Sources */,
 				B77328C41E7ECC0900F4C97F /* AppDelegate.m in Sources */,
 				B77328C11E7ECC0900F4C97F /* main.m in Sources */,
+				B7CBBF841EED94D0002A0D10 /* CZBluetooth.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +323,7 @@
 				B77328D51E7ECC0900F4C97F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
