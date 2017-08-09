@@ -1,7 +1,7 @@
 # CZBluetooth_iOS
 对蓝牙的常用操作做了封装，将原生蓝牙的 delegate 回调方式改为 block。
 
-## 1. 介绍
+## 介绍
 
 iOS 提供的蓝牙框架是 CoreBluetooth，消息的回调使用的是 delegate 的方式。
 
